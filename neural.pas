@@ -53,6 +53,7 @@ implementation
    Proc: TProcessEx;
    namrunner:TextFile;
  begin
+   NAMButton.Enabled:=false;
    //StartProcessAndStreamStdioToMemo('NAM-Runner.bat',MemConsole)
    AssignFile(namrunner, 'NAM-Runner060.bat');
   // Try
@@ -133,6 +134,7 @@ implementation
      Proc.Free;
    end;
    DeleteFile('NAM-Runner060.bat');
+   NAMButton.Enabled:=true;
  end;
 
 
