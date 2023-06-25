@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="neuralampcentral.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos X="44" Y="9"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="neural.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="136"/>
+        <CursorPos X="32" Y="152"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nachelper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="85" Y="13"/>
+        <UsageCount Value="30"/>
+      </Unit>
+      <Unit>
+        <Filename Value="processutils.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="136"/>
+        <CursorPos X="37" Y="51"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="28">
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="133" Column="104" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="132" Column="104" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="131" Column="104" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="130" Column="104" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="129" Column="104" TopLine="129"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="128" Column="104" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="127" Column="104" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="126" Column="104" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="125" Column="104" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="124" Column="104" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="123" Column="104" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="122" Column="104" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="121" Column="104" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="122" Column="104" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="56" Column="23" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="146" Column="56" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="145" Column="56" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="143" Column="22" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="57" Column="4" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="58" Column="4" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="57" Column="4" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="9" Column="63" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="9" Column="40" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="155" Column="18" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="8" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="162" Column="22" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="143" Column="6" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="142" Column="6" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="neural.pas"/>
+        <Caret Line="30" Column="35" TopLine="17"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

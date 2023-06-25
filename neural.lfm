@@ -1,0 +1,69 @@
+object MainForm: TMainForm
+  Left = 530
+  Height = 611
+  Top = 632
+  Width = 891
+  Caption = 'Neural Amp Cenrtral'
+  ClientHeight = 581
+  ClientWidth = 891
+  DesignTimePPI = 144
+  Menu = MainMenu1
+  LCLVersion = '2.2.6.0'
+  object MemConsole: TRichMemo
+    Left = 16
+    Height = 344
+    Top = 216
+    Width = 865
+    HideSelection = False
+    TabOrder = 0
+    ZoomFactor = 1
+  end
+  object NAMButton: TButton
+    Left = 256
+    Height = 86
+    Top = 88
+    Width = 374
+    Caption = 'NAM!!!'
+    Color = clForm
+    OnClick = NAMButtonClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    Left = 51
+    Top = 24
+    object MenuItem2: TMenuItem
+      Caption = '&File'
+      object MenuItem7: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem10: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'E&xit'
+      end
+    end
+    object MenuItem15: TMenuItem
+      Caption = '&Help'
+      object MenuItem18: TMenuItem
+        Caption = '&Online Help'
+      end
+      object MenuItem19: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem20: TMenuItem
+        Caption = '&Licence Information'
+      end
+      object MenuItem21: TMenuItem
+        Caption = '&Check for Updates'
+      end
+      object MenuItem22: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem23: TMenuItem
+        Caption = '&About'
+      end
+    end
+  end
+end
