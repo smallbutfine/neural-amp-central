@@ -1,7 +1,7 @@
 object MainForm: TMainForm
-  Left = 530
+  Left = 941
   Height = 611
-  Top = 632
+  Top = 135
   Width = 891
   Caption = 'Neural Amp Cenrtral'
   ClientHeight = 581
@@ -15,13 +15,14 @@ object MainForm: TMainForm
     Top = 216
     Width = 865
     HideSelection = False
+    ScrollBars = ssAutoVertical
     TabOrder = 0
     ZoomFactor = 1
   end
   object NAMButton: TButton
-    Left = 256
+    Left = 64
     Height = 86
-    Top = 88
+    Top = 96
     Width = 374
     Caption = 'NAM!!!'
     Color = clForm
@@ -29,10 +30,29 @@ object MainForm: TMainForm
     ParentFont = False
     TabOrder = 1
   end
+  object AidaXButton: TButton
+    Left = 488
+    Height = 86
+    Top = 96
+    Width = 169
+    Caption = 'Aida-X!!!'
+    Enabled = False
+    OnClick = AidaXButtonClick
+    TabOrder = 2
+  end
+  object ProteusButton: TButton
+    Left = 704
+    Height = 86
+    Top = 96
+    Width = 144
+    Caption = 'Proteus'
+    Enabled = False
+    TabOrder = 3
+  end
   object MainMenu1: TMainMenu
-    Left = 51
-    Top = 24
-    object MenuItem2: TMenuItem
+    Left = 152
+    Top = 8
+    object FileMenuItem: TMenuItem
       Caption = '&File'
       object MenuItem7: TMenuItem
         Caption = '-'
@@ -40,12 +60,68 @@ object MainForm: TMainForm
       object MenuItem10: TMenuItem
         Caption = '-'
       end
-      object MenuItem11: TMenuItem
+      object FileExitMenuItem: TMenuItem
         Caption = 'E&xit'
       end
     end
-    object MenuItem15: TMenuItem
+    object ToolsMenuItem: TMenuItem
+      Caption = 'Tools'
+      Enabled = False
+      object NAMMenuItem: TMenuItem
+        Caption = 'NAM'
+        object NAMVSTMenuItem: TMenuItem
+          Caption = 'Install VST/Standalone'
+        end
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Aida-X'
+        object MenuItem6: TMenuItem
+          Caption = 'Install VST/Standalone'
+        end
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Proteus'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'X-Train'
+        object MenuItem12: TMenuItem
+          Caption = 'NAM->Aida-X'
+        end
+        object MenuItem13: TMenuItem
+          Caption = 'NAM->Proteus'
+        end
+        object MenuItem14: TMenuItem
+          Caption = 'Proteus->NAM'
+        end
+        object MenuItem16: TMenuItem
+          Caption = 'Proteus->Aida-X'
+        end
+        object MenuItem17: TMenuItem
+          Caption = 'Aida-X->NAM'
+        end
+        object MenuItem24: TMenuItem
+          Caption = 'Aida-X->Proteus'
+        end
+      end
+    end
+    object TrainMenuItem: TMenuItem
+      Caption = 'Train'
+      Enabled = False
+      object NamTrainingMenuItem: TMenuItem
+        Caption = 'NAM'
+        OnClick = NAMButtonClick
+      end
+      object AidaXTrainingMenuItem: TMenuItem
+        Caption = 'Aida-X'
+        OnClick = AidaXTrainingMenuItemClick
+      end
+      object MenuItem28: TMenuItem
+        Caption = 'Proteus'
+      end
+    end
+    object HelpMenuItem: TMenuItem
       Caption = '&Help'
+      Enabled = False
       object MenuItem18: TMenuItem
         Caption = '&Online Help'
       end
